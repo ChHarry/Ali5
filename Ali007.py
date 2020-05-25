@@ -107,7 +107,7 @@ print  """
           \033[1;93m  ┃╭━╮┃┃╱╱╱╱┃┃╱┃┃╱┃┣╯━╰━╮
           \033[1;97m  ╰╯╱╰┻╯╱╱╱╱╰╯╱╰╯╱╰┻━━━━╯
           \033[1;92m•◈•▬▬▬▬▬●•◈•\033[1;91mAli.007\033[1;92m•◈•●▬▬▬▬▬•◈•"""
-Jalan("\033[1;97m0") 
+Jalan("\033[1;97m░0%") 
 jalan("\033[1;95m█░░☆10%")
 jalan("\033[1;95m██░░☆20%")
 jalan('\033[1;95m███░░☆30%')
@@ -433,8 +433,8 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;92m•◈•▬▬▬▬▬●•◈•\033[1;91mHarry.tools\033[1;92m•◈•●▬▬▬▬▬•◈•"
-	print "  \033[1;93m«---•◈•---Developed By Haroon-Harry--•◈•---»" #Dev:love_harry
+	print "\033[1;92m•◈•▬▬▬▬▬●•◈•\033[1;91mAli.tools\033[1;92m•◈•●▬▬▬▬▬•◈•"
+	print "  \033[1;93m«---•◈•---Developed By Ali-007--•◈•---»" #Dev:love_harry
 	print '\033[1;91m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 jaan.py)↩\033[1;92m....'
 	print"\033[1;91mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;92m"+str(len(cekpoint))
 	print """
